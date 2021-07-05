@@ -1,0 +1,119 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #575757;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.top .flex {
+    width: 50%;
+}
+
+.top-left {
+    padding-left: 7%;
+}
+
+.top-left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+
+.top-left h1 span {
+    color: #11B2FA;
+}
+
+.top-left p {
+    margin: -10px 0 54px 0;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(#11B2FA, #A6D4EE);
+}
+
+.top-right img {
+    width: 90%;
+}
+
+
+
+.about-me {
+    background-image: url(attachments/about-me.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 7% 0;
+}
+
+.about-me .flex {
+    width: 50%;
+}
+
+.about-me h2 {
+    font-size: 40px;
+}
+
+.about-me p {
+    padding: 10px 0 60px 0;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.recipies {
+    padding: 7%;
+}
+
+.recipies .flex {
+    width: 33.33%;
+    padding: 20px;
+}
+
+.recipies .title {
+    text-align: center;
+}
+
+.recipies .title h2 {
+    font-size: 40px;
+}
+
+.recipies p {
+    margin: -10px 0 -20px 0;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.recipies .flex .item {
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.recipies .flex .item img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.recipies .flex .item h2 {
+    font-size: 25px;
+}
+
+.recipies .flex .item p {
+    margin: -10px 0 20px 0;
+    font-size: 20px;
+    opacity: 80%;
+}
