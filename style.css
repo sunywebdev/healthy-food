@@ -150,6 +150,10 @@ span {
     padding: 20px;
 }
 
+.recipies .flex .item:hover {
+    box-shadow: #11B2FA 0px 0px 15px 3px;
+}
+
 .recipies .flex .item img {
     width: 100%;
     display: block;
