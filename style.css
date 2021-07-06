@@ -261,7 +261,7 @@ span {
 
 
 .users-statistics {
-    margin: 3% 7% 6% 7%;
+    margin: 3% 7% 15% 7%;
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
     border-radius: 20px;
 }
@@ -278,10 +278,75 @@ span {
     color: black;
 }
 
+.bottom-section {
+    position: relative;
+}
+
+.newsletter {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+    border-radius: 20px;
+    padding: 2%;
+    position: absolute;
+    bottom: 73%;
+    left: 22%;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.newsletter .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 3%;
+    margin: 0;
+}
+
+.newsletter .title p {
+    margin: 0 auto;
+    font-size: 18px;
+    opacity: 80%;
+    max-width: 50%;
+}
+
+.newsletter .input {
+    width: 400px;
+    height: 32px;
+    border-radius: 15px 0 0 15px;
+    text-indent: 10px;
+}
+
+form {
+    padding: 3% 0 2% 0;
+}
+
+input {
+    border: 2px solid #11B2FA;
+    font-weight: 700;
+}
+
+
+.newsletter .submit {
+    width: 100px;
+    height: 38px;
+    margin-left: -5px;
+    border-radius: 0 15px 15px 0;
+    background-color: #11B2FA;
+    color: #fff;
+    text-align: center;
+}
+
+.newsletter .submit:hover {
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+    color: #11B2FA;
+}
+
 .footer {
     text-align: center;
     background-color: #0B0D17;
-    padding: 0 7% 0 7%;
+    padding: 7% 7% 0 7%;
 }
 
 .footer h2 {
