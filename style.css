@@ -261,9 +261,6 @@ span {
     font-weight: 700;
 }
 
-.copyright p {
-    text-align: center;
-    background-color: #0B0D17;
-    margin: 0 auto;
-    padding: 3px;
+.footer p {
+    color: white;
 }
