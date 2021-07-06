@@ -90,7 +90,8 @@ span {
     border-radius: 50px;
     color: white;
     background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .top-right img {
