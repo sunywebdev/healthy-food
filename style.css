@@ -9,7 +9,6 @@ body {
 section {
     display: flex;
     align-items: center;
-    margin-top: 50px;
 }
 
 .nav {
@@ -69,7 +68,7 @@ section {
 
 
 .top-left {
-    padding: 3% 0 3% 7%;
+    padding: 2% 0 2% 7%;
     width: 55%;
 }
 
@@ -115,20 +114,21 @@ span {
     background-image: url(attachments/about-me-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 3% 0;
+    padding: 2% 0;
 }
 
 .about-me .flex {
     width: 50%;
-    padding-left: 7%;
+    padding: 0 3%;
 }
 
 .about-me img {
-    width: 86%;
+    width: 84%;
 }
 
 .about-me h2 {
     font-size: 40px;
+    font-weight: 700;
 }
 
 .about-me p {
@@ -139,7 +139,7 @@ span {
 }
 
 .recipies {
-    padding: 3% 7%;
+    padding: 2% 7%;
 }
 
 .recipies .flex {
@@ -153,12 +153,14 @@ span {
 
 .recipies .title h2 {
     font-size: 40px;
+    font-weight: 700;
 }
 
-.recipies p {
-    margin: -10px 0 -50px 0;
+.recipies .title p {
+    margin: 0 auto;
     font-size: 18px;
     opacity: 80%;
+    max-width: 50%;
 }
 
 .recipies .flex .item {
@@ -181,6 +183,7 @@ span {
 .recipies .flex .item h2 {
     font-size: 25px;
     color: black;
+    font-weight: 700;
 }
 
 .recipies .flex .item p {
@@ -192,7 +195,7 @@ span {
 
 
 .feedbacks {
-    padding: 3% 7%;
+    padding: 2% 7%;
 }
 
 .feedbacks .flex {
@@ -210,9 +213,10 @@ span {
 }
 
 .feedbacks .title p {
-    margin: -10px 0 -50px 0;
+    margin: 0 auto;
     font-size: 18px;
     opacity: 80%;
+    max-width: 50%;
 }
 
 .feedbacks .flex .feedback {
@@ -238,12 +242,12 @@ span {
 .feedbacks .flex .feedback h2 {
     font-size: 25px;
     font-weight: 700;
-    color: black;
+    color: #11B2FA;
 }
 
 .feedbacks .flex .feedback h4 {
     margin: -10px 0 20px 0;
-    font-size: 20px;
+    font-size: 19px;
     color: black;
 }
 
@@ -275,14 +279,15 @@ span {
 .footer {
     text-align: center;
     background-color: #0B0D17;
-    padding: 3% 7%;
+    padding: 2% 7%;
 }
 
 .footer h2 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 3;
     font-weight: 700;
     margin: -20px 0 20px 0;
+    letter-spacing: 1px;
 }
 
 .footer p {
